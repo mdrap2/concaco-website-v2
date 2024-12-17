@@ -1,5 +1,4 @@
-import { ArrowRight, CircleHelp, Play } from "lucide-react";
-import { HelpOption } from "grommet-icons";
+import { ArrowRight, CircleHelp, Play, ShieldQuestion } from "lucide-react";
 
 export const Hero = () => {
   const scrollToFeatures = (e: React.MouseEvent) => {
@@ -49,7 +48,7 @@ export const Hero = () => {
                 className="rounded-md border border-coral px-8 py-3 text-coral hover:bg-coral/10 transition-colors flex items-center justify-center gap-2"
               >
                 Why Concaco
-                <HelpOption className="h-5 w-5" />
+                <ShieldQuestion className="h-5 w-5" />
                 {/* <Play className="h-5 w-5" /> */}
               </a>
             </div>
