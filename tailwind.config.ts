@@ -25,16 +25,16 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "#9b87f5",
-          foreground: "hsl(var(--primary-foreground))",
+          DEFAULT: "#e96e31",
+          foreground: "#ffffff",
         },
         secondary: {
-          DEFAULT: "#F1F0FB",
-          foreground: "hsl(var(--secondary-foreground))",
+          DEFAULT: "#2f8895",
+          foreground: "#ffffff",
         },
         accent: {
-          DEFAULT: "#7E69AB",
-          foreground: "hsl(var(--accent-foreground))",
+          DEFAULT: "#1A1F2C",
+          foreground: "#ffffff",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
@@ -53,8 +53,11 @@ export default {
           foreground: "hsl(var(--card-foreground))",
         },
         textDark: "#1A1F2C",
-        coral: "#e96e3a",
+        coral: "#e96e31",
         teal: "#2f8895",
+      },
+      borderColor: {
+        DEFAULT: "hsl(var(--border))",
       },
       animation: {
         "fade-up": "fadeUp 0.5s ease-out forwards",
@@ -69,9 +72,6 @@ export default {
           "0%": { opacity: "0", transform: "translateY(-20px)" },
           "100%": { opacity: "1", transform: "translateY(0)" },
         },
-      },
-      borderColor: {
-        DEFAULT: "hsl(var(--border))",
       },
     },
   },

@@ -36,7 +36,7 @@ export const Features = () => {
               key={index}
               className="relative rounded-2xl border border-gray-200 p-8 hover:shadow-lg transition-shadow"
             >
-              <div className="absolute -top-4 left-4 inline-block rounded-xl bg-primary p-3 text-white">
+              <div className="absolute -top-4 left-4 inline-block rounded-xl bg-teal p-3 text-white">
                 {feature.icon}
               </div>
               <h3 className="mt-4 text-xl font-semibold text-textDark">
