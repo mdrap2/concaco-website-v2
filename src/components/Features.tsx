@@ -27,7 +27,7 @@ export const Features = () => {
             Why Choose Concaco?
           </h2>
           <p className="mt-4 text-lg text-gray-600">
-            Designed by medical professionals, for medical professionals.
+            Purpose-Built for Healthcare Collaboration
           </p>
         </div>
         <div className="mt-20 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
