@@ -9,14 +9,24 @@ import {
 export const Testimonials = () => {
   const testimonials = [
     {
-      quote: "Concaco has transformed how we coordinate care for complex cases. It's a lifesaver.",
-      author: "Dr. Smith",
+      quote: "Concaco has made coordinating with specialists so much easier. No more frustration with disconnected calls or endless emails. It's all in one place!",
+      author: "Dr. Sarah Thompson",
+      role: "Cardiologist",
+    },
+    {
+      quote: "I can now set up case conferences in minutes, and everyone stays on the same page. It's been a huge time saver for my team!",
+      author: "Dr. James Nguyen",
       role: "Oncologist",
     },
     {
-      quote: "I love how easy it is to stay connected with specialists securely.",
-      author: "Nurse Emily",
+      quote: "Concaco eliminates confusion and streamlines care planning. I no longer have to chase down records or updates—everything is secure and accessible.",
+      author: "Nurse Emily Carter",
       role: "Primary Care",
+    },
+    {
+      quote: "The secure and intuitive platform has reduced the frustration of juggling multiple tools. It's truly frustration-free collaboration for patient care!",
+      author: "Dr. Alex Rivera",
+      role: "Neurologist",
     },
   ];
 
