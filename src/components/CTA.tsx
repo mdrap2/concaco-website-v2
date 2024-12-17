@@ -1,6 +1,12 @@
 import { ArrowRight } from "lucide-react";
 
 export const CTA = () => {
+  const scrollToAppStores = (e: React.MouseEvent) => {
+    e.preventDefault();
+    const appStoresSection = document.getElementById('app-stores');
+    appStoresSection?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <div className="bg-coral">
       <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
@@ -11,7 +17,8 @@ export const CTA = () => {
           <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
             <div className="inline-flex rounded-md shadow">
               <a
-                href="#"
+                href="#app-stores"
+                onClick={scrollToAppStores}
                 className="inline-flex items-center justify-center gap-2 rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-coral hover:bg-gray-50"
               >
                 Get Started
