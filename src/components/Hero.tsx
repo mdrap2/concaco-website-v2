@@ -1,6 +1,12 @@
 import { ArrowRight, Play } from "lucide-react";
 
 export const Hero = () => {
+  const scrollToFeatures = (e: React.MouseEvent) => {
+    e.preventDefault();
+    const featuresSection = document.getElementById('features');
+    featuresSection?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <div className="relative overflow-hidden bg-gradient-to-b from-white to-gray-50 py-20 sm:py-32">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -25,7 +31,11 @@ export const Hero = () => {
                 Get Started Now
                 <ArrowRight className="h-5 w-5" />
               </a>
-              <a href="#" className="rounded-md border border-coral px-8 py-3 text-coral hover:bg-coral/10 transition-colors flex items-center justify-center gap-2">
+              <a 
+                href="#features" 
+                onClick={scrollToFeatures}
+                className="rounded-md border border-coral px-8 py-3 text-coral hover:bg-coral/10 transition-colors flex items-center justify-center gap-2"
+              >
                 Why Concaco?
                 <Play className="h-5 w-5" />
               </a>
