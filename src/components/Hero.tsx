@@ -7,6 +7,12 @@ export const Hero = () => {
     featuresSection?.scrollIntoView({ behavior: 'smooth' });
   };
 
+  const scrollToAppStores = (e: React.MouseEvent) => {
+    e.preventDefault();
+    const appStoresSection = document.getElementById('app-stores');
+    appStoresSection?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <div className="relative overflow-hidden bg-gradient-to-b from-white to-gray-50 py-20 sm:py-32">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -27,7 +33,11 @@ export const Hero = () => {
               Effortlessly connect medical teams, streamline case discussions, and improve patient outcomes—all with top-tier security.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4 sm:justify-center lg:justify-start">
-              <a href="#" className="rounded-md bg-coral px-8 py-3 text-white hover:bg-coral/90 transition-colors flex items-center justify-center gap-2">
+              <a 
+                href="#app-stores" 
+                onClick={scrollToAppStores}
+                className="rounded-md bg-coral px-8 py-3 text-white hover:bg-coral/90 transition-colors flex items-center justify-center gap-2"
+              >
                 Get Started Now
                 <ArrowRight className="h-5 w-5" />
               </a>
