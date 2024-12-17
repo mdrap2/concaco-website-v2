@@ -34,8 +34,8 @@ export const Hero = () => {
           <div className="mt-16 sm:mt-24 lg:col-span-6 lg:mt-0">
             <div className="bg-white shadow-xl rounded-2xl p-8">
               <img
-                src="https://images.unsplash.com/photo-1431540015161-0bf868a2d407"
-                alt="Professional conference room with subtle lighting"
+                src="/lovable-uploads/e339c222-f72b-4f66-8fa0-23a6765b36d2.png"
+                alt="Modern conference room with natural light, plants, and minimalist design"
                 className="w-full h-auto rounded-lg"
               />
             </div>
