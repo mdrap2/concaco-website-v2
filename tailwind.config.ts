@@ -53,6 +53,8 @@ export default {
           foreground: "hsl(var(--card-foreground))",
         },
         textDark: "#1A1F2C",
+        coral: "#e96e3a",
+        teal: "#2f8895",
       },
       animation: {
         "fade-up": "fadeUp 0.5s ease-out forwards",
