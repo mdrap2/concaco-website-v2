@@ -1,21 +1,21 @@
-import { MessageSquare, Globe, Smartphone } from "lucide-react";
+import { Clock, Users, ShieldCheck } from "lucide-react";
 
 export const Features = () => {
   const features = [
     {
-      icon: <MessageSquare className="h-6 w-6" />,
-      title: "Real-time Collaboration",
-      description: "Instant communication between medical teams for quick decision making.",
+      icon: <Clock className="h-6 w-6" />,
+      title: "Quick and Easy Setup",
+      description: "Create case conferences in minutes, connect with teams from any location.",
     },
     {
-      icon: <Globe className="h-6 w-6" />,
-      title: "Cross-location Access",
-      description: "Connect with healthcare providers regardless of their location.",
+      icon: <Users className="h-6 w-6" />,
+      title: "Seamless Collaboration",
+      description: "Share files, view diagnostics, and create plans in real-time.",
     },
     {
-      icon: <Smartphone className="h-6 w-6" />,
-      title: "Mobile Ready",
-      description: "Available on iOS and Android for collaboration on the go.",
+      icon: <ShieldCheck className="h-6 w-6" />,
+      title: "Secure Communication",
+      description: "End-to-end encryption ensures your discussions stay confidential.",
     },
   ];
 

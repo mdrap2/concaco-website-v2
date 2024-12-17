@@ -1,4 +1,4 @@
-import { Hospital, Shield, Users } from "lucide-react";
+import { ArrowRight, Play } from "lucide-react";
 
 export const Hero = () => {
   return (
@@ -14,37 +14,30 @@ export const Hero = () => {
               />
             </div>
             <h1 className="text-4xl font-bold tracking-tight text-textDark sm:text-5xl md:text-6xl">
-              Connected Case Conferences
-              <span className="block text-coral">for Medical Teams</span>
+              Connected Case Conferences.
+              <span className="block text-coral">Simplified.</span>
             </h1>
             <p className="mt-6 text-lg text-gray-600">
-              Empower your medical team with secure, seamless collaboration. Connect instantly with healthcare providers across locations to deliver better patient outcomes.
+              Effortlessly connect medical teams, streamline case discussions, and improve patient outcomes—all with top-tier security.
             </p>
-            <div className="mt-8 flex gap-4 sm:justify-center lg:justify-start">
-              <a href="#" className="rounded-md bg-coral px-8 py-3 text-white hover:bg-coral/90 transition-colors">
-                Get Started
+            <div className="mt-8 flex flex-col sm:flex-row gap-4 sm:justify-center lg:justify-start">
+              <a href="#" className="rounded-md bg-coral px-8 py-3 text-white hover:bg-coral/90 transition-colors flex items-center justify-center gap-2">
+                Get Started Now
+                <ArrowRight className="h-5 w-5" />
               </a>
-              <a href="#features" className="rounded-md border border-coral px-8 py-3 text-coral hover:bg-coral/10 transition-colors">
-                Learn More
+              <a href="#" className="rounded-md border border-coral px-8 py-3 text-coral hover:bg-coral/10 transition-colors flex items-center justify-center gap-2">
+                Watch Demo
+                <Play className="h-5 w-5" />
               </a>
             </div>
           </div>
           <div className="mt-16 sm:mt-24 lg:col-span-6 lg:mt-0">
             <div className="bg-white shadow-xl rounded-2xl p-8">
-              <div className="space-y-6">
-                <div className="flex items-center gap-4">
-                  <Hospital className="h-8 w-8 text-teal" />
-                  <p className="text-gray-600">Connect across medical practices</p>
-                </div>
-                <div className="flex items-center gap-4">
-                  <Shield className="h-8 w-8 text-teal" />
-                  <p className="text-gray-600">Secure communication platform</p>
-                </div>
-                <div className="flex items-center gap-4">
-                  <Users className="h-8 w-8 text-teal" />
-                  <p className="text-gray-600">Collaborative case management</p>
-                </div>
-              </div>
+              <img
+                src="/placeholder.svg"
+                alt="Medical professionals collaborating"
+                className="w-full h-auto rounded-lg"
+              />
             </div>
           </div>
         </div>
