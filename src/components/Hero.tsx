@@ -6,6 +6,13 @@ export const Hero = () => {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="lg:grid lg:grid-cols-12 lg:gap-8">
           <div className="sm:text-center md:mx-auto lg:col-span-6 lg:text-left">
+            <div className="mb-8 flex justify-center lg:justify-start">
+              <img 
+                src="/lovable-uploads/be352f3d-2422-47cb-8f41-9bfb93f4e1eb.png" 
+                alt="Concaco Logo" 
+                className="h-16 sm:h-20"
+              />
+            </div>
             <h1 className="text-4xl font-bold tracking-tight text-textDark sm:text-5xl md:text-6xl">
               Connected Case Conferences
               <span className="block text-coral">for Medical Teams</span>
