@@ -5,20 +5,17 @@ export const Features = () => {
     {
       icon: <Clock className="h-6 w-6" />,
       title: "Quick and Easy Setup",
-      description:
-        "Create case conferences in minutes, connect with teams from any location.",
+      description: "Create case conferences in minutes, connect with teams from any location.",
     },
     {
       icon: <Users className="h-6 w-6" />,
       title: "Seamless Collaboration",
-      description:
-        "Share information, view diagnostics, and create plans in real-time.",
+      description: "Share files, view diagnostics, and create plans in real-time.",
     },
     {
       icon: <ShieldCheck className="h-6 w-6" />,
       title: "Secure Communication",
-      description:
-        "End-to-end encryption ensures your discussions stay confidential.",
+      description: "End-to-end encryption ensures your discussions stay confidential.",
     },
   ];
 
