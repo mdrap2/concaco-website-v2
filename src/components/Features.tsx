@@ -10,7 +10,7 @@ export const Features = () => {
     {
       icon: <Users className="h-6 w-6" />,
       title: "Seamless Collaboration",
-      description: "Share files, view diagnostics, and create plans in real-time.",
+      description: "Share information, view diagnostics, and create plans in real-time.",
     },
     {
       icon: <ShieldCheck className="h-6 w-6" />,
