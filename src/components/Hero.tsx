@@ -1,17 +1,16 @@
-import { ArrowRight, CircleHelp, Play, ShieldQuestion } from "lucide-react";
-import { QuestionOutlined } from "@ant-design/icons";
+import { ArrowRight, HelpCircle } from "lucide-react";
 
 export const Hero = () => {
   const scrollToFeatures = (e: React.MouseEvent) => {
     e.preventDefault();
-    const featuresSection = document.getElementById("features");
-    featuresSection?.scrollIntoView({ behavior: "smooth" });
+    const featuresSection = document.getElementById('features');
+    featuresSection?.scrollIntoView({ behavior: 'smooth' });
   };
 
   const scrollToAppStores = (e: React.MouseEvent) => {
     e.preventDefault();
-    const appStoresSection = document.getElementById("app-stores");
-    appStoresSection?.scrollIntoView({ behavior: "smooth" });
+    const appStoresSection = document.getElementById('app-stores');
+    appStoresSection?.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
@@ -20,9 +19,9 @@ export const Hero = () => {
         <div className="lg:grid lg:grid-cols-12 lg:gap-8">
           <div className="sm:text-center md:mx-auto lg:col-span-6 lg:text-left">
             <div className="mb-8 flex justify-center lg:justify-start">
-              <img
-                src="/lovable-uploads/be352f3d-2422-47cb-8f41-9bfb93f4e1eb.png"
-                alt="Concaco Logo"
+              <img 
+                src="/lovable-uploads/be352f3d-2422-47cb-8f41-9bfb93f4e1eb.png" 
+                alt="Concaco Logo" 
                 className="h-16 sm:h-20"
               />
             </div>
@@ -31,26 +30,24 @@ export const Hero = () => {
               <span className="block text-coral">Simplified.</span>
             </h1>
             <p className="mt-6 text-lg text-gray-600">
-              Effortlessly connect medical teams, streamline case discussions,
-              and improve patient outcomes—all with top-tier security.
+              Effortlessly connect medical teams, streamline case discussions, and improve patient outcomes—all with top-tier security.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4 sm:justify-center lg:justify-start">
-              <a
-                href="#app-stores"
+              <a 
+                href="#app-stores" 
                 onClick={scrollToAppStores}
                 className="rounded-md bg-coral px-8 py-3 text-white hover:bg-coral/90 transition-colors flex items-center justify-center gap-2"
               >
                 Get Started Now
                 <ArrowRight className="h-5 w-5" />
               </a>
-              <a
-                href="#features"
+              <a 
+                href="#features" 
                 onClick={scrollToFeatures}
                 className="rounded-md border border-coral px-8 py-3 text-coral hover:bg-coral/10 transition-colors flex items-center justify-center gap-2"
               >
-                Why Concaco
-                <QuestionOutlined className="h-5 w-5" />
-                {/* <Play className="h-5 w-5" /> */}
+                Why Concaco?
+                <HelpCircle className="h-5 w-5" />
               </a>
             </div>
           </div>
