@@ -13,7 +13,7 @@ export const AppStores = () => {
         </p>
         <div className="flex justify-center gap-4 flex-wrap">
           <a
-            href="#"
+            href="https://apps.apple.com/us/app/concaco/id6739583920?platform=iphone"
             className="inline-flex items-center gap-2 bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors"
           >
             <Apple className="h-6 w-6" />
@@ -23,7 +23,7 @@ export const AppStores = () => {
             </div>
           </a>
           <a
-            href="https://apps.apple.com/us/app/concaco/id6739583920?platform=iphone"
+            href="https://play.google.com/store/apps/details?id=com.cathecsys.concaco"
             className="inline-flex items-center gap-2 bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors"
           >
             <PlayCircle className="h-6 w-6" />
