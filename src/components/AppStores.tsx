@@ -8,7 +8,8 @@ export const AppStores = () => {
           Get Started with Concaco Today
         </h2>
         <p className="mt-4 text-lg text-gray-600 mb-8">
-          Download Concaco now and transform the way your medical team collaborates.
+          Download Concaco now and transform the way your medical team
+          collaborates.
         </p>
         <div className="flex justify-center gap-4 flex-wrap">
           <a
@@ -22,7 +23,7 @@ export const AppStores = () => {
             </div>
           </a>
           <a
-            href="#"
+            href="https://apps.apple.com/us/app/concaco/id6739583920?platform=iphone"
             className="inline-flex items-center gap-2 bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors"
           >
             <PlayCircle className="h-6 w-6" />
